@@ -1,0 +1,31 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="32.256"
+  height="32.256"
+  viewBox="0 0 32.256 32.256"
+>
+  <g id="plan-svgrepo-com" transform="translate(-0.001)">
+    <g id="Group_23" data-name="Group 23" transform="translate(6.312 4.207)">
+      <g id="Group_22" data-name="Group 22">
+        <path
+          id="Path_18"
+          data-name="Path 18"
+          d="M118.756,66.782H101.226a1.052,1.052,0,0,0-1.052,1.052V80.456a1.052,1.052,0,0,0,1.052,1.052h17.531a1.052,1.052,0,0,0,1.052-1.052V67.834A1.052,1.052,0,0,0,118.756,66.782ZM106.836,79.4h-4.558V68.886h4.558Zm10.869,0h-8.765V75.2H117.7Zm0-6.311h-8.765V68.886H117.7Z"
+          transform="translate(-100.174 -66.782)"
+          fill="#a098ae"
+        />
+      </g>
+    </g>
+    <g id="Group_25" data-name="Group 25" transform="translate(0.001)">
+      <g id="Group_24" data-name="Group 24" transform="translate(0)">
+        <path
+          id="Path_19"
+          data-name="Path 19"
+          d="M31.205,21.037H30.154V2.1h1.052a1.052,1.052,0,0,0,0-2.1H1.053a1.052,1.052,0,0,0,0,2.1H2.1V21.037H1.053a1.052,1.052,0,1,0,0,2.1H15.077v5.2L9.485,30.206a1.052,1.052,0,1,0,.665,2l5.978-1.993L22.108,32.2a1.052,1.052,0,0,0,.665-2l-5.592-1.864v-5.2H31.206a1.052,1.052,0,1,0,0-2.1Zm-3.156,0H4.208V2.1H28.05Z"
+          transform="translate(-0.001)"
+          fill="#a098ae"
+        />
+      </g>
+    </g>
+  </g>
+</svg>;

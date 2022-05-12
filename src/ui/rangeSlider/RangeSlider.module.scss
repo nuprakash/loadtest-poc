@@ -1,0 +1,58 @@
+@import '@Assets/styles/Colors.scss';
+@import '@Assets/styles/Mixins.scss';
+
+.range {
+  &-sliders {
+    width: 80%;
+    position: relative;
+    margin-bottom: 20px;
+
+    &::after {
+      --diff: (var(--max) - var(--min));
+      --diffPercent: ((var(--barMax) - var(--barMin)) * 100%);
+      --minPercent: (((var(--barMin) - var(--min)) * 100%) / var(--diff));
+
+      position: absolute;
+      grid-column: 1 / span 2;
+      grid-row: 3;
+      height: 6px;
+      background: $very-light-gray;
+      content: '';
+      margin-top: -20px;
+      margin-left: calc(var(--minPercent));
+      width: calc((var(--diffPercent) / var(--diff)));
+      border-radius: 3px;
+      border: 1px solid $Navy;
+      left: 0;
+      bottom: 15px;
+    }
+
+    .slider {
+      appearance: none;
+      outline: none;
+      height: 20px;
+      width: 100%;
+      margin-left: 0;
+
+      &::-webkit-slider-thumb {
+        appearance: none;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        background-color: $SkyBlue;
+        border: 2px solid $Navy;
+        border-radius: 50%;
+        transform: translateY(-7px);
+        margin-top: -2px;
+        position: relative;
+        z-index: 1;
+      }
+
+      &::-webkit-slider-runnable-track {
+        appearance: none;
+        background-color: $warm-light-gray;
+        height: 2px;
+      }
+    }
+  }
+}

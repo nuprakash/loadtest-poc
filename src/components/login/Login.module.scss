@@ -1,0 +1,78 @@
+@import '@Assets/styles/Colors.scss';
+@import '@Assets/styles/variables.scss';
+
+.layout {
+  height: 100vh;
+  max-width: 1520px;
+  margin: 0 auto;
+
+  &-image {
+    height: 100%;
+    width: 100%;
+  }
+
+  &-right {
+    background: $very-light-shade-gray 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #00000043;
+    border-radius: 30px 0 0 30px;
+    padding: 50px 70px;
+    margin-left: -30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-head {
+    font-family: $FontSFProDisplay;
+    font-size: 20px;
+
+    &-title {
+      background-color: $white;
+      border-radius: 3px;
+      padding: 8px;
+      font-weight: 100;
+    }
+
+    &-link {
+      color: $blue;
+      padding-bottom: 5px;
+      display: block;
+    }
+  }
+
+  &-Col {
+    margin-top: 50px;
+    align-items: flex-start;
+  }
+
+  &-form {
+    &-left {
+      span {
+        font-size: 20px;
+        font-family: $FontRaleway;
+      }
+      h4 {
+        font-size: 50px;
+        font-family: $FontSFProDisplay;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: $black;
+      }
+    }
+  }
+
+  &-footer {
+    p {
+      font-family: $FontRaleway;
+      font-size: 20px;
+    }
+
+    &-logo {
+      padding-top: 30px;
+      border-top: 1px solid $warm-medium-gray;
+
+      &-icon {
+        margin-right: 20px;
+      }
+    }
+  }
+}

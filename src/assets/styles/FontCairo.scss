@@ -1,0 +1,26 @@
+@font-face {
+  /* cairo-regular */
+  font-family: "cairo";
+  src: url("../fonts/cairo/cairo-regular/cairo-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  /* cairo-semibold */
+  font-family: "cairo";
+  src: url("../fonts/cairo/cairo-semibold/cairo-semiBold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  /* cairo-bold */
+  font-family: "cairo";
+  src: url("../fonts/cairo/cairo-bold/cairo-bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,33 @@
+@import '@Assets/styles/Colors.scss';
+
+.tiles {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  color: $Navy;
+
+  button {
+    border: none;
+    margin: 0 0 0 8px;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+  }
+
+  &-theme1 {
+    background-color: $IceBlue;
+  }
+
+  &-theme2 {
+    background-color: $natural;
+  }
+
+  &-icon {
+    width: 10px;
+  }
+}

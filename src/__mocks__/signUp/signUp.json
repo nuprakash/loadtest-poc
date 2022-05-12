@@ -1,0 +1,27 @@
+{
+    "signUpOptions": {
+        "title": "Sign up",
+        "topNav": [
+            {
+                "title": "Sign in",
+                "href": "/signIn"
+            },
+            {
+                "title": " Try as Guest",
+                "href": "/"
+            }
+        ],
+        "form": "signUp",
+        "Icon": [
+            {
+                "iconName": "Facebook"
+            },
+            {
+                "iconName": "Google"
+            },
+            {
+                "iconName": "Apple"
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+@import "@Assets/styles/Colors.scss";
+@import "@Assets/styles/variables.scss";
+
+.wrapper {
+    position: relative;
+    &-button {
+        background-color: $blue;
+        color: white;
+        height: 80px;
+        width: 210px;
+        border-radius: 20px;
+        border: none;
+        text-align: left;
+        padding: 32px;
+        justify-content: space-between;
+        font-size: 20px;
+        &:hover {
+            color: $white;
+        }
+    }
+
+    &-icon {
+        top: calc(50% - 5px);
+        right: 18px;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,52 @@
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="35"
+      height="35"
+      viewBox="0 0 35 35"
+    >
+      <g
+        id="Group_45623"
+        data-name="Group 45623"
+        transform="translate(-986 -285)"
+      >
+        <circle
+          id="Ellipse_5"
+          data-name="Ellipse 5"
+          cx="17.5"
+          cy="17.5"
+          r="17.5"
+          transform="translate(986 285)"
+          fill="#3babc3"
+        />
+        <g id="Group_45622" data-name="Group 45622">
+          <path
+            id="Path_65"
+            data-name="Path 65"
+            d="M5.243,18.284,15.818,7.708l2.819,2.819L8.062,21.1Z"
+            transform="translate(991.209 288.446)"
+            fill="#fff"
+          />
+          <path
+            id="Path_66"
+            data-name="Path 66"
+            d="M49.44,3.806l.4-.4A1.993,1.993,0,1,0,47.024.584l-.4.4Z"
+            transform="translate(961.615 293.959)"
+            fill="#fff"
+          />
+          <path
+            id="Path_67"
+            data-name="Path 67"
+            d="M1.167,46.527.014,49.985a.285.285,0,0,0,.27.375.281.281,0,0,0,.09-.015l3.458-1.153Z"
+            transform="translate(994.959 260.682)"
+            fill="#fff"
+          />
+          <path
+            id="Path_68"
+            data-name="Path 68"
+            d="M43.793,5.282l.4-.4L47.015,7.7l-.4.4Z"
+            transform="translate(963.637 290.469)"
+            fill="#fff"
+          />
+        </g>
+      </g>
+    </svg>

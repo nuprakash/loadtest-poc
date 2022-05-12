@@ -1,0 +1,117 @@
+@import '@Assets/styles/Colors.scss';
+@import '@Assets/styles/Mixins.scss';
+
+.price {
+  font-weight: 700;
+
+  &-original {
+    padding-right: 5px;
+    color: $Navy;
+
+    @include media-break-point-up(sm) {
+      font-size: 20px;
+    }
+  }
+
+  &-offer {
+    font-size: 14px;
+    color: $warm-gray;
+    font-weight: 400;
+  }
+
+  &-sale,
+  &-vip {
+    padding-right: 5px;
+    color: $vip-red;
+
+    @include media-break-point-up(sm) {
+      font-size: 20px;
+    }
+  }
+
+  &-striked {
+    text-decoration: line-through;
+    font-size: 14px;
+  }
+}
+
+.pdp {
+  font-weight: 400;
+
+  &-sale {
+    font-size: 18px;
+  }
+
+  &-divider {
+    margin: 0 10px;
+    background-color: $warm-medium-gray;
+    width: 1px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &-vip {
+    align-self: flex-end;
+  }
+
+  &-block {
+    display: inline;
+  }
+
+  &-separator {
+    color: #D8D5D2;
+    align-self: flex-end;
+    padding-right: 5px;
+  }
+
+  &-vip-link {
+    color: $vip-red;
+  }
+
+  &-link {
+    color: $vip-red;
+    white-space: nowrap;
+  }
+
+  &-link-text {
+    font-size: 18px;
+  }
+}
+
+.message {
+  &-vip {
+    font-size: 12px;
+    font-weight: 700;
+    color: $vip-red;
+
+    @include media-break-point-up(sm) {
+      font-size: 17px;
+      margin-left: 3px;
+    }
+  }
+
+  &-vip-benefits {
+    color: $vip-red;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+}
+
+.cart {
+  .price {
+    &-vip {
+      font-size: 16px;
+    }
+
+    &-original {
+      font-size: 16px;
+    }
+  }
+
+  .message {
+    &-vip {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import "@Assets/styles/Colors.scss";
+@import "@Assets/styles/variables.scss";
+
+
+.formgroup {
+    position: relative;
+    margin: 15px 0;
+ p{
+     margin-left: 25px;
+     font-family: $FontRaleway; 
+     letter-spacing: 1.6px;
+     line-height: 1.6;
+ }
+ input {
+    width: 70px;
+    height: 60px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    outline: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgb(170, 172, 172);
+}
+}

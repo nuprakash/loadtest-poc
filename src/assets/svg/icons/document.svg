@@ -1,0 +1,83 @@
+<svg
+      id="document-svgrepo-com"
+      xmlns="http://www.w3.org/2000/svg"
+      width="28.583"
+      height="35.912"
+      viewBox="0 0 28.583 35.912"
+    >
+      <g id="XMLID_25_" transform="translate(0)">
+        <g id="Group_2" data-name="Group 2">
+          <path
+            id="Path_5"
+            data-name="Path 5"
+            d="M78.581,7.329a.731.731,0,0,0-.213-.518l-6.6-6.6A.731.731,0,0,0,71.254,0V0H50.733A.733.733,0,0,0,50,.733V35.179a.733.733,0,0,0,.733.733H77.85a.733.733,0,0,0,.733-.733V7.329ZM71.987,2.5,76.08,6.6H71.987ZM51.466,34.446V1.466H70.521V7.329a.733.733,0,0,0,.733.733h5.863V34.446Z"
+            transform="translate(-50)"
+            fill="#00b3ee"
+          />
+          <rect
+            id="Rectangle_3"
+            data-name="Rectangle 3"
+            width="18"
+            height="2"
+            transform="translate(6.656 11.121)"
+            fill="#00b3ee"
+          />
+          <rect
+            id="Rectangle_4"
+            data-name="Rectangle 4"
+            width="21"
+            height="2"
+            transform="translate(3.656 16.121)"
+            fill="#00b3ee"
+          />
+          <rect
+            id="Rectangle_5"
+            data-name="Rectangle 5"
+            width="21"
+            height="1"
+            transform="translate(3.656 21.121)"
+            fill="#00b3ee"
+          />
+          <rect
+            id="Rectangle_6"
+            data-name="Rectangle 6"
+            width="21"
+            height="1"
+            transform="translate(3.656 25.121)"
+            fill="#00b3ee"
+          />
+          <rect
+            id="Rectangle_7"
+            data-name="Rectangle 7"
+            width="17"
+            height="2"
+            transform="translate(3.656 29.121)"
+            fill="#00b3ee"
+          />
+          <rect
+            id="Rectangle_8"
+            data-name="Rectangle 8"
+            width="2"
+            height="2"
+            transform="translate(22.656 29.121)"
+            fill="#00b3ee"
+          />
+          <rect
+            id="Rectangle_9"
+            data-name="Rectangle 9"
+            width="4"
+            height="1"
+            transform="translate(3.656 3.121)"
+            fill="#00b3ee"
+          />
+          <rect
+            id="Rectangle_10"
+            data-name="Rectangle 10"
+            width="9"
+            height="2"
+            transform="translate(3.656 6.121)"
+            fill="#00b3ee"
+          />
+        </g>
+      </g>
+    </svg>

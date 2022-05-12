@@ -1,0 +1,9 @@
+{
+  "name": "lambda-dependency-layer",
+  "version": "1.0.0",
+  "description": "Dependency layer for lambda function ",
+  "license": "ISC",
+  "dependencies": {
+    "serverless-express": "^2.0.12"
+  }
+}

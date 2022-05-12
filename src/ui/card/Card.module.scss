@@ -1,0 +1,65 @@
+@import '@Assets/styles/Colors.scss';
+
+.card {
+  min-width: 50px;
+  min-height: 50px;
+  // display: inline-flex;
+
+  &-image-block {
+    min-width: 50px;
+    min-height: 50px;
+  }
+
+  &-theme {
+    &-natural {
+      background-color: $natural;
+    }
+
+    &-white {
+      background-color: $white;
+    }
+
+    &-skyblue {
+      background-color: $SkyBlue;
+    }
+
+    &-iceblue {
+      background-color: $IceBlue;
+    }
+
+    &-vip-red {
+      background-color: $vip-red;
+      color: white;
+    }
+
+    &-warm-light-gray {
+      background-color: $warm-light-gray;
+    }
+
+    &-very-light-shade-gray {
+      background-color: $very-light-shade-gray;
+      position: relative;
+
+      img {
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+
+  &-type {
+    &-circle {
+      &,
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    &-square {
+      &,
+      img {
+        border-radius: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

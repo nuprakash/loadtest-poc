@@ -1,0 +1,46 @@
+/**
+ * Extra small devices (portrait phones, less than 576px)
+ * No media query since mobile is default
+ * 1. Small devices (landscape phones, 576px and up)
+ * 2. Medium devices (tablets, 768px and up)
+ * 3. Large devices (desktops, 992px and up)
+ * 4. X-Large devices (large desktops, 1200px and up)
+ * 5. XX-Large devices (larger desktops, 1400px and up)
+ */
+$BREAK_POINTS: sm, md, lg, xl, xxl;
+$BREAK_POINTS_MAP: (
+  sm: 576,
+  md: 768,
+  lg: 992,
+  xl: 1200,
+  xxl: 1400,
+);
+$BREAK_POINTS_MAP_DM: (
+  xs: 575,
+  sm: 767,
+  md: 991,
+  lg: 1199,
+  xl: 1399,
+  xxl: 1599,
+);
+
+
+// Font configuration
+$baseMobileFontSize: 14px;
+$baseDesktopFontSize: 16px;
+$baseLineHeight: 1.4;
+$baseFontWeight: 400;
+$baseLetterSpacing: 0.32px;
+$FontRoboto: 'roboto';
+$FontRaleway: 'raleway';
+$FontCairo: 'cairo';
+$FontSFProDisplay:'sf-pro';
+
+//z-index
+$zindex-dropdown: 1000;
+$zindex-fixed: 1010;
+$zindex-overlay: 1020;
+$zindex-modal: 1030;
+$zindex-modal-content: 1031;
+$zindex-popover: 1040;
+$zindex-tooltip: 1050;
